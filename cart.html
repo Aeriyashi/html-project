@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css" type="text/css">
+    <title>Cart</title>
+</head>
+<body>
+
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="icon">
+                <img src="img/icon.png" alt="bottle" width="100px" onclick="menutoggle()">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="img/shopping-cart.png" alt="cart" width="30px" height="30px"></a>
+    </div>
+
+   <!--cart items details-->
+
+   <div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td><div class="cart-info"><img src="img/drpepper.jpg" height="100px" width="80px">
+                <div
+                ><p>Dr. Pepper</p>
+                <small>Price: $6.00</small>
+                <br>
+                <a href="">remove</a>
+        </div>
+    </div>
+</td>
+            <td><input type="number" value="1"></td>
+            <td>$6.00</td>
+        </tr>
+    </table>
+   </div>
+
+<!---Footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Where are we?</h3>
+                <p>We are Located in Manila, Philippines</p>
+            </div>
+            <div class="footer-col-2">
+                <img src="img/icon.png">
+                <p>The water Bottle is a signification of the need of liquid in our body that keeps us alive.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Where to Contact us?</h3>
+                <ul>
+                    <li>10-923-9999</li>
+                    <li>refresh.co@business.com</li>
+                    <li>+3 523556423</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="main.js"></script>
+</body>
+</html>
